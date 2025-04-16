@@ -1,0 +1,17 @@
+[project]
+name = "multi-agents-of-openai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chainlit>=2.5.5",
+    "openai-agents>=0.0.11",
+]
+
+[project.scripts]
+multi-agents-of-openai = "multi_agents_of_openai:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
